@@ -5,7 +5,7 @@
  *@c : argument from the function
  * islower - chech them
  *
- *Return 0 if not
+ * Return : 0 if not
  */
 int _islower(int c)
 {
