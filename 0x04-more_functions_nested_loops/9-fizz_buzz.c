@@ -1,11 +1,10 @@
 #include <stdio.h>
-/*
- *
- * main -write from 0 to 100
+/**
+ * main - write from 0 to 100
  * if 3->fizz
  * if multiple of 5 ->buzz
  * if both ->FizzBuzz
- *Return :0
+ *Return:0
  */
 
 int main(void)
