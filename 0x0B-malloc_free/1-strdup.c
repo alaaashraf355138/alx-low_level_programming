@@ -24,5 +24,6 @@ while (pos < size)
 target[pos] = str[pos];
 pos++;
 }
+target[pos]='\0';
 return (target);
 }
