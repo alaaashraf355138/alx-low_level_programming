@@ -11,6 +11,9 @@ int siz1;
 int siz2;
 int tot;
 char *target;
+int pos;
+int pos2;
+
 
 
 
@@ -28,14 +31,12 @@ siz2++;
 tot = siz1 + siz2;
 
 target = malloc(sizeof(char) * tot);
-int pos;
 pos = 0;
 while (pos < siz1)
 {
 target[pos] = s1[pos];
 pos++;
 }
-int pos2;
 pos2 = 0;
 while (siz1 < tot)
 {
